@@ -1,4 +1,4 @@
-# 🎯 Stealth Vision — Real-Time Camouflage Detection Using YOLOv5
+#  Stealth Vision — Real-Time Camouflage Detection Using YOLOv5
 
 > A lightweight, real-time camouflage detection system fine-tuned on YOLOv5 and deployed on Raspberry Pi 5 for autonomous, offline edge inference across diverse terrains.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 What It Does
+##  What It Does
 
 Traditional object detection fails when targets intentionally blend into their surroundings. This system detects camouflaged people by identifying subtle **texture, edge, and color inconsistencies** between the target and its background — even in forests, arctic, urban, and arid terrains.
 
@@ -18,7 +18,7 @@ The model runs **fully offline on a Raspberry Pi 5** with a simple UI for image 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Camera / Image Input
@@ -49,7 +49,7 @@ Camera / Image Input
 
 ---
 
-## 📊 Results
+##  Results
 
 | Environment | Detection | Confidence Score |
 |-------------|-----------|-----------------|
@@ -61,7 +61,7 @@ The model reliably identifies camouflaged targets by learning **non-natural edge
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 - **~10,000 images** collected across woodland, arid, arctic, and urban terrains
 - **Single class:** `camouflage` (person wearing camouflage)
@@ -75,7 +75,7 @@ The model reliably identifies camouflaged targets by learning **non-natural edge
 
 ---
 
-## 🔧 Training Configuration
+##  Training Configuration
 
 | Parameter | Value |
 |-----------|-------|
@@ -91,7 +91,7 @@ The model reliably identifies camouflaged targets by learning **non-natural edge
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Clone the repo
 ```bash
@@ -114,7 +114,7 @@ python new_deeplearning.py --source test1.jpg
 
 ---
 
-## 🖥️ Hardware & Software
+##  Hardware & Software
 
 | Component | Details |
 |-----------|---------|
@@ -129,7 +129,7 @@ python new_deeplearning.py --source test1.jpg
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Edge deployable** — runs fully offline on Raspberry Pi, no cloud needed
 - **Real-time inference** — optimized YOLOv5 for low-power hardware
@@ -139,7 +139,7 @@ python new_deeplearning.py --source test1.jpg
 
 ---
 
-## 🔭 Future Scope
+##  Future Scope
 
 - **Thermal camera fusion** — integrate IR for 24/7 night detection
 - **Model quantization/pruning** — improve FPS for smoother video streams
@@ -148,7 +148,7 @@ python new_deeplearning.py --source test1.jpg
 
 ---
 
-## 👥 Authors
+##  Authors
 
 **Piyush Rajvaidya**
 [![GitHub](https://img.shields.io/badge/GitHub-PPiyush14-black?logo=github)](https://github.com/PPiyush14)
