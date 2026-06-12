@@ -53,9 +53,9 @@ Camera / Image Input
 
 | Environment | Detection | Confidence Score |
 |-------------|-----------|-----------------|
-| Arctic / Snowy | ✅ Detected (2 targets) | 0.69, 0.91 |
-| Arctic / Snowy (complex) | ✅ Detected | 0.92 |
-| Forest / Woodland | ✅ Detected (extreme background) | 0.92 |
+| Arctic / Snowy |  Detected (2 targets) | 0.69, 0.91 |
+| Arctic / Snowy (complex) |  Detected | 0.92 |
+| Forest / Woodland |  Detected (extreme background) | 0.92 |
 
 The model reliably identifies camouflaged targets by learning **non-natural edges, outlines, and textures** rather than color alone — consistent high confidence scores across all terrain types.
 
